@@ -436,7 +436,7 @@ LLGRBTDE:
         value: 1.1e+4
         unit: !astropy.units.Unit {unit: G}
     magn_2:
-        value: 1.5e-0
+        value: 1.2e-0
         unit: !astropy.units.Unit {unit: G}
     magn_3:
         value: 8.5e+1
