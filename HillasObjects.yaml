@@ -15,8 +15,13 @@ LHC:
         unit: !astropy.units.Unit {unit: T}
     label_en: "LHC"
     label_de: "LHC"
-    color: "m"
+    color: 12
 
+########################################
+# Galactic objects
+# -brownish colors
+
+# White dwarfs
 # Kawka, A. (2017) https://arxiv.org/abs/1801.05602 (Figure 1)
 WhiteDwarfs:
     type: "Rectangle"
@@ -33,15 +38,166 @@ WhiteDwarfs:
         value: 1.e+12
         unit: !astropy.units.Unit {unit: G}
     label_pos_size:
-        value: 8.e+5
+        value: 1.e+5
         unit: !astropy.units.Unit {unit: m}
     label_pos_magn:
-        value: 1.e+12
+        value: 1.e+6
         unit: !astropy.units.Unit {unit: G}
     label_en: "White dwarfs"
-    label_de: "Weisse Zwerge"
-    color: "b"
+    label_de: "Weisse\nZwerge"
+    color: 10
 
+# Neutron stars
+# Batista et al (arxiv:1903.06714), Figure 10
+# Caption text: 
+# "For neutron stars and magnetars the quoted values of B, and R 
+# correspond to the expected UHECR acceleration sites in [139–141]"
+NeutronStars:
+    type: "Trapezoid"
+    size_1:
+        value: 1.0e+7
+        unit: !astropy.units.Unit {unit: cm}
+    size_2:
+        value: 9.5e+9
+        unit: !astropy.units.Unit {unit: cm}
+    size_3:
+        value: 9.5e+9
+        unit: !astropy.units.Unit {unit: cm}
+    size_4:
+        value: 1.0e+7
+        unit: !astropy.units.Unit {unit: cm}
+    magn_1:
+        value: 1.2e+9
+        unit: !astropy.units.Unit {unit: G}
+    magn_2:
+        value: 1.5e+6
+        unit: !astropy.units.Unit {unit: G}
+    magn_3:
+        value: 1.0e+10
+        unit: !astropy.units.Unit {unit: G}
+    magn_4:
+        value: 7.0e+12
+        unit: !astropy.units.Unit {unit: G}
+    label_pos_size:
+        value: 1.5e+9
+        unit: !astropy.units.Unit {unit: cm}
+    label_pos_magn:
+        value: 1.e+11
+        unit: !astropy.units.Unit {unit: G}
+    label_en: "Neutron stars"
+    label_de: "Neutronensterne"
+    color: 9
+
+# Wolf Ray stars
+# Batista et al (arxiv:1903.06714), Figure 10
+# [138]
+WRStar:
+    type: "Rectangle"
+    size_min:
+        value: 6.e+10
+        unit: !astropy.units.Unit {unit: cm}
+    size_max:
+        value: 2.e+12
+        unit: !astropy.units.Unit {unit: cm}
+    magn_min:
+        value: 8.e+1
+        unit: !astropy.units.Unit {unit: G}
+    magn_max:
+        value: 5.e+2
+        unit: !astropy.units.Unit {unit: G}
+    label_pos_size:
+        value: 1.e+10
+        unit: !astropy.units.Unit {unit: cm}
+    label_pos_magn:
+        value: 2.5e+0
+        unit: !astropy.units.Unit {unit: G}
+    label_en: "Wolf Rayet stars"
+    label_de: "Wolf Rayet\nSterne"
+    color: 10
+
+# Supernovae
+# Batista et al (arxiv:1903.06714), Figure 10
+# [135–137]
+SNe:
+    type: "Trapezoid"
+    size_1:
+        value: 9.0e+17
+        unit: !astropy.units.Unit {unit: cm}
+    size_2:
+        value: 9.0e+19
+        unit: !astropy.units.Unit {unit: cm}
+    size_3:
+        value: 1.0e+20
+        unit: !astropy.units.Unit {unit: cm}
+    size_4:
+        value: 1.0e+18
+        unit: !astropy.units.Unit {unit: cm}
+    magn_1:
+        value: 1.0e-3
+        unit: !astropy.units.Unit {unit: G}
+    magn_2:
+        value: 1.0e-5
+        unit: !astropy.units.Unit {unit: G}
+    magn_3:
+        value: 4.5e-5
+        unit: !astropy.units.Unit {unit: G}
+    magn_4:
+        value: 4.5e-3
+        unit: !astropy.units.Unit {unit: G}
+    label_pos_size:
+        value: 5.0e+15
+        unit: !astropy.units.Unit {unit: cm}
+    label_pos_magn:
+        value: 1.0e-4
+        unit: !astropy.units.Unit {unit: G}
+    label_en: "SNe"
+    label_de: "Super-\nnovae"
+    color: 8
+
+########################################
+# Galaxies and galaxy clusters
+# - greenish colors
+
+# Batista et al (arxiv:1903.06714), Figure 10
+# [133]
+NormalGalaxies:
+    type: "Trapezoid"
+    size_1:
+        value: 8.5e+19
+        unit: !astropy.units.Unit {unit: cm}
+    size_2:
+        value: 5.6e+20
+        unit: !astropy.units.Unit {unit: cm}
+    size_3:
+        value: 1.7e+21
+        unit: !astropy.units.Unit {unit: cm}
+    size_4:
+        value: 5.9e+20
+        unit: !astropy.units.Unit {unit: cm}
+    magn_1:
+        value: 3.5e-5
+        unit: !astropy.units.Unit {unit: G}
+    magn_2:
+        value: 7.8e-7
+        unit: !astropy.units.Unit {unit: G}
+    magn_3:
+        value: 5.8e-6
+        unit: !astropy.units.Unit {unit: G}
+    magn_4:
+        value: 7.0e-5
+        unit: !astropy.units.Unit {unit: G}
+    label_pos_size:
+        value: 1.0e+17
+        unit: !astropy.units.Unit {unit: cm}
+    label_pos_magn:
+        value: 5.e-7
+        unit: !astropy.units.Unit {unit: G}
+    label_en: "Normal galaxies"
+    label_de: "Normale\nGalaxien"
+    color: 6
+
+# Batista et al (arxiv:1903.06714), Figure 10
+# [133]
 GalaxyCluster:
     type: "Rectangle"
     size_min:
@@ -57,15 +213,17 @@ GalaxyCluster:
         value: 5.e-6
         unit: !astropy.units.Unit {unit: G}
     label_pos_size:
-        value: 1.2e+23
+        value: 5.0e+23
         unit: !astropy.units.Unit {unit: cm}
     label_pos_magn:
-        value: 5.e-8
+        value: 5.e-9
         unit: !astropy.units.Unit {unit: G}
     label_en: "Galaxy clusters"
-    label_de: "Galaxienhaufen"
-    color: "b"
+    label_de: "Galaxien-\nhaufen"
+    color: 5
 
+# Batista et al (arxiv:1903.06714), Figure 10
+# [133]
 StarburstWinds:
     type: "Rectangle"
     size_min:
@@ -88,32 +246,15 @@ StarburstWinds:
         unit: !astropy.units.Unit {unit: G}
     label_en: "Starburst winds"
     label_de: "Starburst Winde"
-    color: "b"
+    color: 4
 
-WRStar:
-    type: "Rectangle"
-    size_min:
-        value: 6.e+10
-        unit: !astropy.units.Unit {unit: cm}
-    size_max:
-        value: 2.e+12
-        unit: !astropy.units.Unit {unit: cm}
-    magn_min:
-        value: 8.e+1
-        unit: !astropy.units.Unit {unit: G}
-    magn_max:
-        value: 5.e+2
-        unit: !astropy.units.Unit {unit: G}
-    label_pos_size:
-        value: 1.5e+8
-        unit: !astropy.units.Unit {unit: cm}
-    label_pos_magn:
-        value: 1.e+1
-        unit: !astropy.units.Unit {unit: G}
-    label_en: "Wolf Rayet stars"
-    label_de: "Wolf Rayet Sterne"
-    color: "b"
+########################################
+# Active Galaxies
+# - blueish colors
 
+# AGN hot spots
+# Batista et al (arxiv:1903.06714), Figure 10
+# [134], [127]
 AGNHotSpots:
     type: "Trapezoid"
     size_1:
@@ -148,8 +289,11 @@ AGNHotSpots:
         unit: !astropy.units.Unit {unit: G}
     label_en: "AGN Hotspots"
     label_de: "AGN Hotspots"
-    color: "b"
+    color: 0
 
+# AGN Knots
+# Batista et al (arxiv:1903.06714), Figure 10
+# [134], [127]
 AGNKnots:
     type: "Trapezoid"
     size_1:
@@ -184,9 +328,12 @@ AGNKnots:
         unit: !astropy.units.Unit {unit: G}
     label_en: "AGN Knots"
     label_de: "AGN Knots"
-    color: "r"
+    color: 1
 
 
+# AGN Lobes
+# Batista et al (arxiv:1903.06714), Figure 10
+# [134], [127]
 AGNLobes:
     type: "Trapezoid"
     size_1:
@@ -221,80 +368,17 @@ AGNLobes:
         unit: !astropy.units.Unit {unit: G}
     label_en: "AGN Lobes"
     label_de: "AGN Lobes"
-    color: "g"
+    color: 2
 
-NormalGalaxies:
-    type: "Trapezoid"
-    size_1:
-        value: 8.5e+19
-        unit: !astropy.units.Unit {unit: cm}
-    size_2:
-        value: 5.6e+20
-        unit: !astropy.units.Unit {unit: cm}
-    size_3:
-        value: 1.7e+21
-        unit: !astropy.units.Unit {unit: cm}
-    size_4:
-        value: 5.9e+20
-        unit: !astropy.units.Unit {unit: cm}
-    magn_1:
-        value: 3.5e-5
-        unit: !astropy.units.Unit {unit: G}
-    magn_2:
-        value: 7.8e-7
-        unit: !astropy.units.Unit {unit: G}
-    magn_3:
-        value: 5.8e-6
-        unit: !astropy.units.Unit {unit: G}
-    magn_4:
-        value: 7.0e-5
-        unit: !astropy.units.Unit {unit: G}
-    label_pos_size:
-        value: 5.0e+14
-        unit: !astropy.units.Unit {unit: cm}
-    label_pos_magn:
-        value: 1.2e-6
-        unit: !astropy.units.Unit {unit: G}
-    label_en: "Normal galaxies"
-    label_de: "Normale Galaxien"
-    color: "c"
 
-SNe:
-    type: "Trapezoid"
-    size_1:
-        value: 9.0e+17
-        unit: !astropy.units.Unit {unit: cm}
-    size_2:
-        value: 9.0e+19
-        unit: !astropy.units.Unit {unit: cm}
-    size_3:
-        value: 1.0e+20
-        unit: !astropy.units.Unit {unit: cm}
-    size_4:
-        value: 1.0e+18
-        unit: !astropy.units.Unit {unit: cm}
-    magn_1:
-        value: 1.0e-3
-        unit: !astropy.units.Unit {unit: G}
-    magn_2:
-        value: 1.0e-5
-        unit: !astropy.units.Unit {unit: G}
-    magn_3:
-        value: 4.5e-5
-        unit: !astropy.units.Unit {unit: G}
-    magn_4:
-        value: 4.5e-3
-        unit: !astropy.units.Unit {unit: G}
-    label_pos_size:
-        value: 1.5e+17
-        unit: !astropy.units.Unit {unit: cm}
-    label_pos_magn:
-        value: 1.8e-5
-        unit: !astropy.units.Unit {unit: G}
-    label_en: "SNe"
-    label_de: "Supernovae"
-    color: "c"
+########################################
+# GRBs and TDEs
+# - pinkish colors
+
     
+# Prombt GRBs
+# Batista et al (arxiv:1903.06714), Figure 10
+# [128, 129]
 GRBPrombt:
     type: "Trapezoid"
     size_1:
@@ -322,15 +406,18 @@ GRBPrombt:
         value: 8.5e+6
         unit: !astropy.units.Unit {unit: G}
     label_pos_size:
-        value: 2.0e+15
+        value: 1.0e+15
         unit: !astropy.units.Unit {unit: cm}
     label_pos_magn:
         value: 2.0e+4
         unit: !astropy.units.Unit {unit: G}
     label_en: "GRBs"
     label_de: "GRBs"
-    color: "m"
+    color: 17
 
+# LL GRBs and TDEs
+# Batista et al (arxiv:1903.06714), Figure 10
+# [128, 129]
 LLGRBTDE:
     type: "Trapezoid"
     size_1:
@@ -358,48 +445,11 @@ LLGRBTDE:
         value: 8.5e+5
         unit: !astropy.units.Unit {unit: G}
     label_pos_size:
-        value: 1.2e+9
+        value: 5.e+09
         unit: !astropy.units.Unit {unit: cm}
     label_pos_magn:
-        value: 1.2e+3
+        value: 1.2e+4
         unit: !astropy.units.Unit {unit: G}
     label_en: "LL GRBs/TDE"
-    label_de: "LL GRBs/TDE"
-    color: "k"
-
-
-NeutronStars:
-    type: "Trapezoid"
-    size_1:
-        value: 1.0e+7
-        unit: !astropy.units.Unit {unit: cm}
-    size_2:
-        value: 9.5e+9
-        unit: !astropy.units.Unit {unit: cm}
-    size_3:
-        value: 9.5e+9
-        unit: !astropy.units.Unit {unit: cm}
-    size_4:
-        value: 1.0e+7
-        unit: !astropy.units.Unit {unit: cm}
-    magn_1:
-        value: 1.2e+9
-        unit: !astropy.units.Unit {unit: G}
-    magn_2:
-        value: 1.5e+6
-        unit: !astropy.units.Unit {unit: G}
-    magn_3:
-        value: 1.0e+10
-        unit: !astropy.units.Unit {unit: G}
-    magn_4:
-        value: 7.0e+12
-        unit: !astropy.units.Unit {unit: G}
-    label_pos_size:
-        value: 2.e+8
-        unit: !astropy.units.Unit {unit: cm}
-    label_pos_magn:
-        value: 6.e+11
-        unit: !astropy.units.Unit {unit: G}
-    label_en: "Neutron stars"
-    label_de: "Neutronensterne"
-    color: "k"
+    label_de: "LL GRBs\n TDE"
+    color: 19
