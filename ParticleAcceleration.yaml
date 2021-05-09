@@ -1,0 +1,40 @@
+---
+Proton10e20b1:
+    energy:
+        value: 1.e+20
+        unit: !astropy.units.Unit {unit: eV}
+    charge: 1.
+    beta:   1.
+    label: "Proton 10$^{20}$ eV, $\\beta=1$"
+    color: "r"
+    linestyle: "-"
+
+Proton10e20b001:
+    energy:
+        value: 1.e+20
+        unit: !astropy.units.Unit {unit: eV}
+    charge: 1.
+    beta:   0.01
+    label: "Proton 10$^{20}$ eV, $\\beta=0.01$"
+    color: "r"
+    linestyle: "--"
+
+Iron10e20b1:
+    energy:
+        value: 1.e+20
+        unit: !astropy.units.Unit {unit: eV}
+    charge: 26.
+    beta:   1.
+    label: "Eisen 10$^{20}$ eV, $\\beta=1$"
+    color: "b"
+    linestyle: "-"
+
+Iron10e20b001:
+    energy:
+        value: 1.e+20
+        unit: !astropy.units.Unit {unit: eV}
+    charge: 26.
+    beta:   0.01
+    label: "Eisen 10$^{20}$ eV, $\\beta=0.01$"
+    color: "b"
+    linestyle: "--"
