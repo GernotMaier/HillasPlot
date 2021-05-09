@@ -2,6 +2,21 @@
 
 Showing upper limits on the reachable cosmic ray energy dependent on the size of the acceleration region and the magnetic field strength.
 
+# Technical
+
+Notebook used for plotting.
+
+Data is read from two yaml files.
+
+[HillasObjects.yaml](HillasObjects.yaml):
+List of objects to be plotted. Given is object type (Marker, Rectangle, Trapezoid), coordinates, and labels. Setting labels needs a bit of fine tuning.
+
+[ParticleAcceleration.yaml](ParticleAcceleration.yaml):
+List of lines to be drawn for maximal achievable energy using the Hillas formula:
+```math
+B_{\mu G}L_{pc}>2E_{15}/Z\beta
+```
+
 # References
 
 1. Hillas, M. [Ann. Rev. Astron. Astrophys. 1984 22:425](https://doi.org/10.1146/annurev.aa.22.090184.002233)
