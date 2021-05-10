@@ -11,7 +11,7 @@ conda env create -f environment.yml
 conda activate HillasPlot
 ```
 
-Data is read from two yaml files.
+Data of all objects to be drawn is read from two yaml files.
 
 [HillasObjects.yaml](HillasObjects.yaml):
 List of objects to be plotted. Given is object type (Marker, Rectangle, Trapezoid), coordinates, and labels. Setting labels needs a bit of fine tuning.
