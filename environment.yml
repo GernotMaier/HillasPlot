@@ -1,0 +1,9 @@
+name: HillasPlot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - astropy
+  - matplotlib
+  - notebook
+  - pyyaml
