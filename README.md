@@ -2,6 +2,8 @@
 
 Showing upper limits on the reachable cosmic ray energy dependent on the size of the acceleration region and the magnetic field strength.
 
+**Simplified version** - based on publications (see below) with some approximations.
+
 # Technical
 
 Notebook used for plotting. All packages can be installed using conda (matplotlib, astropy, pyyaml)
