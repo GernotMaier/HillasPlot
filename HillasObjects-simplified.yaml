@@ -164,7 +164,7 @@ GalaxyCluster:
         value: 3.e+23
         unit: !astropy.units.Unit {unit: cm}
     size_max:
-        value: 4.5e+25
+        value: 8.5e+25
         unit: !astropy.units.Unit {unit: cm}
     magn_min:
         value: 1.05e-7
@@ -173,7 +173,7 @@ GalaxyCluster:
         value: 5.e-6
         unit: !astropy.units.Unit {unit: G}
     label_pos_size:
-        value: 5.0e+25
+        value: 1.0e+26
         unit: !astropy.units.Unit {unit: cm}
     label_pos_magn:
         value: 2.e-7
@@ -380,7 +380,7 @@ AGNLobes:
         value: 5.0e-5
         unit: !astropy.units.Unit {unit: G}
     label_en: "AGN Lobes"
-    label_de: "Radio\nGalaxies\nLobes"
+    label_de: "AGN\nStrukturen"
     color: 2
 
 # Batista et al (arxiv:1903.06714), Figure 10
