@@ -4,6 +4,8 @@ Showing upper limits on the reachable cosmic ray energy dependent on the size of
 
 **Simplified version** - based on publications (see below) with some approximations.
 
+<img src="HillasPlot.png" alt="drawing" width="650"/>
+
 # Technical
 
 Notebook used for plotting. All packages can be installed using conda (matplotlib, astropy, pyyaml)
