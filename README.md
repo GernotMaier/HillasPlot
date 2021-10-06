@@ -1,5 +1,7 @@
 # Hillas Plot
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgithub.com%2FGernotMaier%2FHillasPlot/Master)
+
 Showing upper limits on the reachable cosmic ray energy dependent on the size of the acceleration region and the magnetic field strength.
 
 **Simplified version** - based on publications (see below) with some approximations.
