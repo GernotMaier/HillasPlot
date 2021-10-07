@@ -26,7 +26,7 @@ WhiteDwarfs:
     label_pos_magn:
         value: 3.e+1
         unit: !astropy.units.Unit {unit: G}
-    label_en: "White dwarfs"
+    label_en: "White\ndwarfs"
     label_de: "Weisse\nZwerge"
     color: 11
 
@@ -67,7 +67,7 @@ NeutronStars:
     label_pos_magn:
         value: 1.e+9
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Neutron stars"
+    label_en: "Neutron\nstars"
     label_de: "Neutronen\nsterne"
     color: 9
 
@@ -94,7 +94,7 @@ WRStar:
     label_pos_magn:
         value: 2.5e+0
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Wolf Rayet stars"
+    label_en: "Wolf Rayet\nstars"
     label_de: "Wolf Rayet\nSterne"
     color: 10
 
@@ -120,7 +120,7 @@ MicroQ:
     label_pos_magn:
         value: 3.e-3
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Microquasar"
+    label_en: "Micro\nquasar"
     label_de: "Mikro\nquasare"
     color: 8
 
@@ -151,7 +151,7 @@ InterGalacticeMedium:
     label_pos_magn:
         value: 1.5e-9
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Intergalactic medium"
+    label_en: "     Intergalactic\n     medium"
     label_de: "Intergalaktisches\nMedium"
     color: 4
 
@@ -178,7 +178,7 @@ GalaxyCluster:
     label_pos_magn:
         value: 2.e-7
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Galaxy clusters"
+    label_en: "Galaxy\nclusters"
     label_de: "Galaxien-\nhaufen"
     color: 5
 
@@ -204,7 +204,7 @@ StarburstWinds:
     label_pos_magn:
         value: 1.e-2
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Starburst winds"
+    label_en: "Starburst\nwinds"
     label_de: "Starburst\nWinde"
     color: 4
 
@@ -287,7 +287,7 @@ LLGRBTDE:
     label_pos_magn:
         value: 1.2e+4
         unit: !astropy.units.Unit {unit: G}
-    label_en: "LL GRBs/TDE"
+    label_en: "LL GRBs\n TDE"
     label_de: "LL GRBs\n TDE"
     color: 19
 
@@ -379,7 +379,7 @@ AGNLobes:
     label_pos_magn:
         value: 5.0e-5
         unit: !astropy.units.Unit {unit: G}
-    label_en: "AGN Lobes"
+    label_en: "AGN\nLobes"
     label_de: "AGN\nStrukturen"
     color: 2
 
@@ -417,7 +417,7 @@ NormalGalaxies:
     label_pos_magn:
         value: 5.e-7
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Normal galaxies"
+    label_en: "Normal\ngalaxies"
     label_de: "Normale\nGalaxien"
     color: 6
 
@@ -456,6 +456,6 @@ SNe:
     label_pos_magn:
         value: 1.0e-4
         unit: !astropy.units.Unit {unit: G}
-    label_en: "SNe"
+    label_en: "Super-\nnovae"
     label_de: "Super-\nnovae"
     color: 9

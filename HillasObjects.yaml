@@ -29,7 +29,7 @@ WhiteDwarfs:
         value: 4.5e+5
         unit: !astropy.units.Unit {unit: m}
     size_max:
-        value: 2.5e+7
+        value: 2.0e+7
         unit: !astropy.units.Unit {unit: m}
     magn_min:
         value: 1.e+3
@@ -41,11 +41,11 @@ WhiteDwarfs:
         value: 1.e+5
         unit: !astropy.units.Unit {unit: m}
     label_pos_magn:
-        value: 1.e+6
+        value: 3.e+1
         unit: !astropy.units.Unit {unit: G}
-    label_en: "White dwarfs"
+    label_en: "White\ndwarfs"
     label_de: "Weisse\nZwerge"
-    color: 10
+    color: 11
 
 # Neutron stars
 # Batista et al (arxiv:1903.06714), Figure 10
@@ -79,13 +79,13 @@ NeutronStars:
         value: 7.0e+12
         unit: !astropy.units.Unit {unit: G}
     label_pos_size:
-        value: 1.5e+9
+        value: 2.0e+10
         unit: !astropy.units.Unit {unit: cm}
     label_pos_magn:
-        value: 1.e+11
+        value: 1.e+9
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Neutron stars"
-    label_de: "Neutronensterne"
+    label_en: "Neutron\nstars"
+    label_de: "Neutronen\nsterne"
     color: 9
 
 # Wolf Ray stars
@@ -111,7 +111,7 @@ WRStar:
     label_pos_magn:
         value: 2.5e+0
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Wolf Rayet stars"
+    label_en: "Wolf Rayet\nstars"
     label_de: "Wolf Rayet\nSterne"
     color: 10
 
@@ -137,7 +137,7 @@ MicroQ:
     label_pos_magn:
         value: 3.e-3
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Microquasar"
+    label_en: "Micro\nquasar"
     label_de: "Mikro\nquasare"
     color: 8
 
@@ -244,7 +244,7 @@ InterGalacticeMedium:
     label_pos_magn:
         value: 1.5e-9
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Intergalactic medium"
+    label_en: "     Intergalactic\n     medium"
     label_de: "Intergalaktisches\nMedium"
     color: 4
 
@@ -297,8 +297,8 @@ StarburstWinds:
     label_pos_magn:
         value: 3.e-2
         unit: !astropy.units.Unit {unit: G}
-    label_en: "Starburst winds"
-    label_de: "Starburst Winde"
+    label_en: "Starburst\nwinds"
+    label_de: "Starburst\nWinde"
     color: 4
 
 ########################################

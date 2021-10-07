@@ -7,9 +7,12 @@ Showing upper limits on the reachable cosmic ray energy dependent on the size of
 
 **Simplified version** - based on publications (see below) with some approximations.
 
-German version (english version can be easily prepared with the notebook):
+German version and english version available:
 
 <img src="HillasPlot.png" alt="drawing" width="650"/>
+<img src="HillasPlot-en.png" alt="drawing" width="650"/>
+
+Set the language at the top of the notebook.
 
 # Technical
 
@@ -22,9 +25,8 @@ conda activate HillasPlot
 
 Data of all objects to be drawn is read from two yaml files.
 
-[HillasObjects.yaml](HillasObjects.yaml):
+[HillasObjects-simplified.yam](HillasObjects-simplified.yaml):
 List of objects to be plotted. Given is object type (Marker, Rectangle, Trapezoid), coordinates, and labels. 
-Setting labels for english version (`label_en`) needs a bit of fine tuning.
 
 [ParticleAcceleration.yaml](ParticleAcceleration.yaml):
 List of lines to be drawn for maximal achievable energy using the Hillas formula:
