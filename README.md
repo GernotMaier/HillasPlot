@@ -1,8 +1,6 @@
 # Hillas Plot
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GernotMaier/HillasPlot/HEAD)
 
-Test
-
 Showing upper limits on the reachable cosmic ray energy dependent on the size of the acceleration region and the magnetic field strength.
 
 **Simplified version** - based on publications (see below) with some approximations.
@@ -12,7 +10,8 @@ German version and english version available:
 <img src="HillasPlot.png" alt="drawing" width="650"/>
 <img src="HillasPlot-en.png" alt="drawing" width="650"/>
 
-Set the language at the top of the notebook.
+
+This plot has been used in [E.Pueschel, G.Maier, Extrem beschleunigend; Physik Journal Jan 2022](https://www.pro-physik.de/physik-journal/januar-2022)
 
 # Technical
 
@@ -33,6 +32,8 @@ List of lines to be drawn for maximal achievable energy using the Hillas formula
 ```math
 B_{\mu G}L_{pc}>2E_{15}/Z\beta
 ```
+
+Set the language at the top of the notebook.
 
 # References
 
