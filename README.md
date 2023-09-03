@@ -1,7 +1,8 @@
 # Hillas Plot
 
 
-[![DOI](https://zenodo.org/badge/457858670.svg)](https://zenodo.org/badge/latestdoi/457858670)
+
+[![DOI](https://zenodo.org/badge/365511615.svg)](https://zenodo.org/badge/latestdoi/365511615)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GernotMaier/HillasPlot/HEAD)
 
 Showing upper limits on the reachable cosmic ray energy dependent on the size of the acceleration region and the magnetic field strength.
